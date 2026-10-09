@@ -1,0 +1,356 @@
+[
+  {
+    "source_paragraph": 143,
+    "kind": "chapter",
+    "title": "绪论",
+    "file": "chapters/chapter01.tex"
+  },
+  {
+    "source_paragraph": 148,
+    "kind": "section",
+    "title": "研究的背景及意义",
+    "file": "chapters/chapter01.tex"
+  },
+  {
+    "source_paragraph": 151,
+    "kind": "subsection",
+    "title": "选题的背景",
+    "file": "chapters/chapter01.tex"
+  },
+  {
+    "source_paragraph": 157,
+    "kind": "subsection",
+    "title": "国内外研究现状",
+    "file": "chapters/chapter01.tex"
+  },
+  {
+    "source_paragraph": 166,
+    "kind": "subsection",
+    "title": "研究的意义",
+    "file": "chapters/chapter01.tex"
+  },
+  {
+    "source_paragraph": 170,
+    "kind": "section",
+    "title": "系统目标",
+    "file": "chapters/chapter01.tex"
+  },
+  {
+    "source_paragraph": 179,
+    "kind": "chapter",
+    "title": "相关技术",
+    "file": "chapters/chapter02.tex"
+  },
+  {
+    "source_paragraph": 186,
+    "kind": "section",
+    "title": "总体技术架构概述",
+    "file": "chapters/chapter02.tex"
+  },
+  {
+    "source_paragraph": 189,
+    "kind": "section",
+    "title": "关键技术分节详解",
+    "file": "chapters/chapter02.tex"
+  },
+  {
+    "source_paragraph": 195,
+    "kind": "section",
+    "title": "开发工具与环境",
+    "file": "chapters/chapter02.tex"
+  },
+  {
+    "source_paragraph": 198,
+    "kind": "section",
+    "title": "（可选）技术难点与解决方案",
+    "file": "chapters/chapter02.tex"
+  },
+  {
+    "source_paragraph": 229,
+    "kind": "chapter",
+    "title": "需求分析与概要设计",
+    "file": "chapters/chapter03.tex"
+  },
+  {
+    "source_paragraph": 230,
+    "kind": "section",
+    "title": "系统需求分析",
+    "file": "chapters/chapter03.tex"
+  },
+  {
+    "source_paragraph": 232,
+    "kind": "subsection",
+    "title": "系统边界与角色定义",
+    "file": "chapters/chapter03.tex"
+  },
+  {
+    "source_paragraph": 237,
+    "kind": "subsection",
+    "title": "功能性需求",
+    "file": "chapters/chapter03.tex"
+  },
+  {
+    "source_paragraph": 246,
+    "kind": "subsection",
+    "title": "非功能性需求",
+    "file": "chapters/chapter03.tex"
+  },
+  {
+    "source_paragraph": 254,
+    "kind": "section",
+    "title": "系统概要设计",
+    "file": "chapters/chapter03.tex"
+  },
+  {
+    "source_paragraph": 256,
+    "kind": "subsection",
+    "title": "系统总体架构设计",
+    "file": "chapters/chapter03.tex"
+  },
+  {
+    "source_paragraph": 266,
+    "kind": "subsection",
+    "title": "系统功能模块划分",
+    "file": "chapters/chapter03.tex"
+  },
+  {
+    "source_paragraph": 271,
+    "kind": "subsection",
+    "title": "系统业务流程设计",
+    "file": "chapters/chapter03.tex"
+  },
+  {
+    "source_paragraph": 274,
+    "kind": "subsection",
+    "title": "数据库概念结构设计",
+    "file": "chapters/chapter03.tex"
+  },
+  {
+    "source_paragraph": 276,
+    "kind": "subsection",
+    "title": "系统接口设计（可选，但建议写）",
+    "file": "chapters/chapter03.tex"
+  },
+  {
+    "source_paragraph": 279,
+    "kind": "subsection",
+    "title": "界面原型设计",
+    "file": "chapters/chapter03.tex"
+  },
+  {
+    "source_paragraph": 313,
+    "kind": "chapter",
+    "title": "数据库设计",
+    "file": "chapters/chapter04.tex"
+  },
+  {
+    "source_paragraph": 314,
+    "kind": "section",
+    "title": "概念结构设计",
+    "file": "chapters/chapter04.tex"
+  },
+  {
+    "source_paragraph": 315,
+    "kind": "subsection",
+    "title": "设计思路",
+    "file": "chapters/chapter04.tex"
+  },
+  {
+    "source_paragraph": 316,
+    "kind": "subsection",
+    "title": "E-R图",
+    "file": "chapters/chapter04.tex"
+  },
+  {
+    "source_paragraph": 317,
+    "kind": "section",
+    "title": "逻辑结构设计",
+    "file": "chapters/chapter04.tex"
+  },
+  {
+    "source_paragraph": 318,
+    "kind": "subsection",
+    "title": "设计思路",
+    "file": "chapters/chapter04.tex"
+  },
+  {
+    "source_paragraph": 319,
+    "kind": "subsection",
+    "title": "逻辑模型",
+    "file": "chapters/chapter04.tex"
+  },
+  {
+    "source_paragraph": 321,
+    "kind": "section",
+    "title": "物理结构设计",
+    "file": "chapters/chapter04.tex"
+  },
+  {
+    "source_paragraph": 322,
+    "kind": "subsection",
+    "title": "存取方式",
+    "file": "chapters/chapter04.tex"
+  },
+  {
+    "source_paragraph": 323,
+    "kind": "subsection",
+    "title": "存储结构",
+    "file": "chapters/chapter04.tex"
+  },
+  {
+    "source_paragraph": 325,
+    "kind": "chapter",
+    "title": "详细设计",
+    "file": "chapters/chapter05.tex"
+  },
+  {
+    "source_paragraph": 326,
+    "kind": "section",
+    "title": "系统前端详细设计",
+    "file": "chapters/chapter05.tex"
+  },
+  {
+    "source_paragraph": 327,
+    "kind": "subsection",
+    "title": "前端总体架构",
+    "file": "chapters/chapter05.tex"
+  },
+  {
+    "source_paragraph": 336,
+    "kind": "subsection",
+    "title": "页面路由与菜单设计",
+    "file": "chapters/chapter05.tex"
+  },
+  {
+    "source_paragraph": 345,
+    "kind": "subsection",
+    "title": "组件设计与用户界面设计",
+    "file": "chapters/chapter05.tex"
+  },
+  {
+    "source_paragraph": 357,
+    "kind": "subsection",
+    "title": "关键交互流程设计",
+    "file": "chapters/chapter05.tex"
+  },
+  {
+    "source_paragraph": 362,
+    "kind": "section",
+    "title": "系统后端详细设计",
+    "file": "chapters/chapter05.tex"
+  },
+  {
+    "source_paragraph": 363,
+    "kind": "subsection",
+    "title": "后端总体架构",
+    "file": "chapters/chapter05.tex"
+  },
+  {
+    "source_paragraph": 378,
+    "kind": "subsection",
+    "title": "功能模块设计",
+    "file": "chapters/chapter05.tex"
+  },
+  {
+    "source_paragraph": 390,
+    "kind": "subsection",
+    "title": "安全设计（可选）",
+    "file": "chapters/chapter05.tex"
+  },
+  {
+    "source_paragraph": 405,
+    "kind": "subsection",
+    "title": "部署与运行环境（可选）",
+    "file": "chapters/chapter05.tex"
+  },
+  {
+    "source_paragraph": 420,
+    "kind": "chapter",
+    "title": "系统测试",
+    "file": "chapters/chapter06.tex"
+  },
+  {
+    "source_paragraph": 421,
+    "kind": "section",
+    "title": "测试方案设计",
+    "file": "chapters/chapter06.tex"
+  },
+  {
+    "source_paragraph": 422,
+    "kind": "subsection",
+    "title": "测试策略",
+    "file": "chapters/chapter06.tex"
+  },
+  {
+    "source_paragraph": 423,
+    "kind": "subsection",
+    "title": "测试进度安排",
+    "file": "chapters/chapter06.tex"
+  },
+  {
+    "source_paragraph": 424,
+    "kind": "subsection",
+    "title": "测试资源",
+    "file": "chapters/chapter06.tex"
+  },
+  {
+    "source_paragraph": 425,
+    "kind": "subsection",
+    "title": "关键测试点",
+    "file": "chapters/chapter06.tex"
+  },
+  {
+    "source_paragraph": 426,
+    "kind": "section",
+    "title": "测试用例构建",
+    "file": "chapters/chapter06.tex"
+  },
+  {
+    "source_paragraph": 427,
+    "kind": "subsection",
+    "title": "测试用例编写约定",
+    "file": "chapters/chapter06.tex"
+  },
+  {
+    "source_paragraph": 428,
+    "kind": "subsection",
+    "title": "测试用例设计",
+    "file": "chapters/chapter06.tex"
+  },
+  {
+    "source_paragraph": 429,
+    "kind": "subsection",
+    "title": "关键测试用例",
+    "file": "chapters/chapter06.tex"
+  },
+  {
+    "source_paragraph": 430,
+    "kind": "subsection",
+    "title": "测试用例维护",
+    "file": "chapters/chapter06.tex"
+  },
+  {
+    "source_paragraph": 431,
+    "kind": "section",
+    "title": "测试结果",
+    "file": "chapters/chapter06.tex"
+  },
+  {
+    "source_paragraph": 432,
+    "kind": "chapter",
+    "title": "总结与展望",
+    "file": "chapters/chapter07.tex"
+  },
+  {
+    "source_paragraph": 433,
+    "kind": "section",
+    "title": "设计工作总结",
+    "file": "chapters/chapter07.tex"
+  },
+  {
+    "source_paragraph": 434,
+    "kind": "section",
+    "title": "未来工作展望",
+    "file": "chapters/chapter07.tex"
+  }
+]
