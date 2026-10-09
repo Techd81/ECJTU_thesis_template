@@ -1,0 +1,55 @@
+{
+  "recorded_on": "2026-10-09",
+  "reference_documents": [
+    {
+      "file": "指导老师-学生姓名-毕设论文 2026届软件工程(1).docx",
+      "size": 298774,
+      "sha256": "f51da7c7d565b38cea7e820279905e84563e525a0bb823c7f4f141370ee518ad"
+    },
+    {
+      "file": "指导老师-学生姓名-毕设论文 2026届软件工程(1).pdf",
+      "size": 4756936,
+      "sha256": "b654c076ebc2278b094c6cdcf5c2a3ded4866cd374f789e89e84c57b441fa89c"
+    }
+  ],
+  "assets": [
+    {
+      "file": "assets/cover-background.png",
+      "source": "依据原稿内嵌封面图片制作的底图，写作提示由 LaTeX 文字层排印",
+      "size": 169450,
+      "sha256": "4dfb858c3a7f421ba6ea90067d6d4dd61d5dc89dd4fea7a4597e259e9aabe462"
+    },
+    {
+      "file": "assets/salary-flow.png",
+      "source": "参考 PDF 第 15 页嵌入的 649×534 像素流程图，RGB 像素已核对一致",
+      "size": 26577,
+      "sha256": "855f3d09af96b2c5b96e6f2ea9cb7ecc12b07db412945ec6af9b4c9b3a4bdbcc"
+    },
+    {
+      "file": "assets/KaiTi_GB2312.ttf",
+      "source": "参考 PDF 字体对象 xref 37（xref 42 为同一字体数据）",
+      "size": 85112,
+      "sha256": "e9f934e53516e2fee81ed8da206a47f660525a5014ba9303bde35553accfea44"
+    },
+    {
+      "file": "assets/STXINGKA.TTF",
+      "source": "本机 C:/Windows/Fonts/STXINGKA.TTF 的副本，SHA-256 已核对相同",
+      "size": 4016288,
+      "sha256": "7f901dfb0526d542740264fb5ba8dfe483293ad060270d273593e2f04a69d080"
+    },
+    {
+      "file": "assets/Wingdings-Regular.ttf",
+      "source": "参考 PDF 字体对象 xref 143；补充 Unicode cmap：U+26AB 对应 glyph 122，U+0020 对应 glyph 1",
+      "embedded_source_sha256": "e11dbd7bb24085e02437f8f77f0afb7afcefa31e19cf65159a1ca3b295de4a74",
+      "size": 14252,
+      "sha256": "98b69d949887c865371e0064df9dd336defa7b8357ec1f26d3fe48d5541aa41a"
+    },
+    {
+      "file": "assets/guide-layout.json",
+      "source": "由 scripts/measure_reference_layout.py 测量参考 PDF 与原生 LaTeX 输出得到的数值参数",
+      "size": 698901,
+      "sha256": "df2be50902ef3d968498740704bcc45a54cda76e950daf17a5a60c488294fc30"
+    }
+  ],
+  "historical_record": "source-files.json 保留初始 .doc 与学校撰写规范文件的历史哈希"
+}

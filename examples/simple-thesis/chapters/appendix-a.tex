@@ -1,0 +1,15 @@
+\chapter{软件使用说明书}
+\label{app:usage}
+原型程序位于 \texttt{prototype.py}，使用 Python 标准库中的 SQLite 接口。程序启动后创建内存数据库、写入固定用户与座位，再按顺序执行全部功能用例。每项结果在终端显示，并保存到 \texttt{assets/test-results.json}。
+
+在示例论文目录中执行以下命令，可重现功能测试。
+\begin{lstlisting}[language=bash]
+python prototype.py
+\end{lstlisting}
+
+执行论文构建入口，会先重跑功能测试，再编译 LaTeX 并检查新论文格式。
+\begin{lstlisting}[language=bash]
+python build.py
+\end{lstlisting}
+
+生成论文位于 \texttt{build/main.pdf}，格式报告位于 \texttt{build/format-report.json}。修改论文题目与个人信息时，编辑 \texttt{metadata.tex}；修改正文时，编辑 \texttt{chapters} 目录中的对应章节。需要实际保留业务数据时，可将数据库初始化连接改为文件路径，并补充重启后的查询测试。

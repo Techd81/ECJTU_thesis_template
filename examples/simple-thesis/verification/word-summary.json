@@ -1,0 +1,81 @@
+{
+  "title": "校园自习室预约系统设计与实现",
+  "tested_date": "2026-10-09",
+  "docx": "output/docx/ECJTU_示例论文_自习室预约系统.docx",
+  "docx_sha256": "a02389db9bc04fca153b1c7c3aef5bb9f4453d066f4b172f1b288afceba1ccbc",
+  "source_pdf_sha256": "172e900a0fd3d488a01f5797d199a59a72e6cef06e3aecc93f9ade9d3e0aad33",
+  "word_version": "16.0 (16.0.20326)",
+  "content_checks": 795,
+  "content_failures": 0,
+  "editing_checks": 310,
+  "editing_failures": 0,
+  "editing_actions": [
+    "各内容页面插入中英文",
+    "正文删除和替换",
+    "新增正文段落并自动换行",
+    "扩展表格单元格",
+    "修改原生公式",
+    "更新目录和页码",
+    "添加批注",
+    "保存关闭后重开",
+    "确认新增内容实际渲染可见"
+  ],
+  "native_tables": 3,
+  "native_math_objects": 14,
+  "reference_entries": 3,
+  "code_blocks": 3,
+  "image_count": 2,
+  "image_contents": [
+    "封面底图",
+    "分层结构图"
+  ],
+  "strict_layout_match": false,
+  "reference_pages": 19,
+  "word_pages": 18,
+  "comparison_dpi": 144,
+  "layout_differences": [
+    "封面和声明后的两张空白页未保留",
+    "目录由一页变为两页",
+    "表格列宽及边框与源 PDF 不同",
+    "部分行尾及附录换行不同"
+  ],
+  "editing_limits": [
+    "部分段落的手动换行需在增删文字后调整字距与分页",
+    "结构图内文字和框线为图片元素",
+    "Word 中的修改需另行同步到 LaTeX 源码"
+  ],
+  "visual_renderer": "Microsoft Word ExportAsFixedFormat",
+  "visually_reviewed_clean_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "visually_reviewed_final_editing_pages": [
+    7,
+    13
+  ],
+  "render_dpi": 108,
+  "regression_tests": 38,
+  "regression_passed": 38,
+  "delivered_document_contains_test_markers": false,
+  "reports": {
+    "content": "output/docx/ECJTU_示例论文_自习室预约系统.check.json",
+    "editing": "tmp/simple-thesis-word-final-editing/word-verification.json",
+    "comparison": "tmp/pdfs/simple-thesis-word-final-comparison/comparison.json"
+  }
+}

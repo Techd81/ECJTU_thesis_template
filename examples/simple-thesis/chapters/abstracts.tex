@@ -1,0 +1,11 @@
+\begin{cnabstract}
+校园自习室在集中学习时段容易出现座位信息不透明、重复预约和取消后资源释放不及时等问题。为明确预约规则并验证其可执行性，本文设计并实现了一个基于 Python 与 SQLite 的轻量级预约业务原型。首先，分析学生预约、查询和取消等需求，确定开放时段、预约归属及冲突限制；其次，采用入口、业务服务和数据存储分层的结构，建立用户、座位与预约记录之间的关系；随后，以左闭右开的时间区间描述预约时段，在同一数据库事务内完成冲突检查与记录写入，并使用预约状态表示取消结果。测试采用两个用户、三个座位和固定日期的可重复数据，覆盖正常预约、时段重叠、相邻时段、本人重复预约、输入校验、取消权限及跨日期预约等情形。实际执行的 \SampleTestCount{} 项功能用例全部通过，取消后的时段可再次预约，统计结果与保留记录一致。该原型为后续接入校园身份认证和交互界面提供了明确的业务接口与数据基础。
+\keywords{自习室预约；时段冲突；数据库事务；功能测试}
+\end{cnabstract}
+
+\begin{enabstract}
+Campus study rooms need clear reservation rules to manage overlapping bookings and release seats after cancellation. This paper presents a lightweight reservation prototype implemented with Python and SQLite. Requirements are defined for booking, cancellation and record queries, including opening hours and ownership checks. The design separates the entry layer, business service and data storage, with related tables for users, seats and bookings.
+
+Reservation periods are represented as half-open intervals. Conflict checks and record insertion are performed in one database transaction, while cancellation updates the booking status. Reproducible tests use two users, three seats and fixed dates. They cover valid bookings, overlapping and adjacent periods, user conflicts, invalid inputs, cancellation permissions and bookings on different dates. All \SampleTestCount{} functional cases passed in the local execution. A released period could be booked again, and the aggregate query agreed with the remaining records. The prototype provides a basis for adding campus authentication and a user interface.
+\keywordsen{Seat reservation; Time conflict; Transactions; Testing}
+\end{enabstract}

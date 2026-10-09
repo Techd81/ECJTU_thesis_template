@@ -1,0 +1,104 @@
+{
+  "python": "3.14.3",
+  "sqlite": "3.50.4",
+  "cases": [
+    {
+      "id": "T01",
+      "name": "valid reservation",
+      "actual": "created",
+      "expected": "created",
+      "passed": true
+    },
+    {
+      "id": "T02",
+      "name": "seat overlap",
+      "actual": "seat-conflict",
+      "expected": "seat-conflict",
+      "passed": true
+    },
+    {
+      "id": "T03",
+      "name": "adjacent periods",
+      "actual": "created",
+      "expected": "created",
+      "passed": true
+    },
+    {
+      "id": "T04",
+      "name": "user overlap",
+      "actual": "user-conflict",
+      "expected": "user-conflict",
+      "passed": true
+    },
+    {
+      "id": "T05",
+      "name": "reversed interval",
+      "actual": "invalid",
+      "expected": "invalid",
+      "passed": true
+    },
+    {
+      "id": "T06",
+      "name": "unknown seat",
+      "actual": "unknown-seat",
+      "expected": "unknown-seat",
+      "passed": true
+    },
+    {
+      "id": "T07",
+      "name": "another user's cancellation",
+      "actual": "not-owner-or-inactive",
+      "expected": "not-owner-or-inactive",
+      "passed": true
+    },
+    {
+      "id": "T08",
+      "name": "owner's cancellation",
+      "actual": "cancelled",
+      "expected": "cancelled",
+      "passed": true
+    },
+    {
+      "id": "T09",
+      "name": "released period",
+      "actual": "created",
+      "expected": "created",
+      "passed": true
+    },
+    {
+      "id": "T10",
+      "name": "repeated cancellation",
+      "actual": "not-owner-or-inactive",
+      "expected": "not-owner-or-inactive",
+      "passed": true
+    },
+    {
+      "id": "T11",
+      "name": "different day",
+      "actual": "created",
+      "expected": "created",
+      "passed": true
+    },
+    {
+      "id": "T12",
+      "name": "daily statistics",
+      "actual": [
+        2,
+        120
+      ],
+      "expected": [
+        2,
+        120
+      ],
+      "passed": true
+    }
+  ],
+  "passed": 12,
+  "total": 12,
+  "day": "2026-10-09",
+  "active_bookings": 2,
+  "booked_minutes": 120,
+  "available_seats": 3,
+  "opening_minutes": 840,
+  "utilization_percent": 4.76
+}

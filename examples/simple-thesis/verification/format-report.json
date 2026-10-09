@@ -1,0 +1,2516 @@
+{
+  "generated_at": "2026-10-09T03:37:48.243572+00:00",
+  "pdf": "D:\\ECJTU_thesis_template\\examples\\simple-thesis\\build\\main.pdf",
+  "pdf_sha256": "172e900a0fd3d488a01f5797d199a59a72e6cef06e3aecc93f9ade9d3e0aad33",
+  "passed": true,
+  "check_count": 495,
+  "failure_count": 0,
+  "details": {
+    "pages": 19,
+    "body_pages": 12,
+    "bookmarks": 38,
+    "fonts": {
+      "SimSun": 4834,
+      "TimesNewRomanPSMT": 6089,
+      "SimHei": 793,
+      "KaiTi_GB2312": 157,
+      "TimesNewRomanPS-BoldMT": 795,
+      "CMR12": 22,
+      "CMMI12": 29,
+      "CMSY10": 4,
+      "CMR8": 10,
+      "CMMI8": 4,
+      "CMEX10": 1
+    },
+    "font_sizes_bp": {
+      "14.0": 38,
+      "12.0": 10019,
+      "15.96": 262,
+      "15.0": 10,
+      "18.0": 80,
+      "9.0": 189,
+      "14.04": 157,
+      "7.97": 23,
+      "10.56": 1960
+    },
+    "underfull_boxes": []
+  },
+  "checks": [
+    {
+      "name": "构建产物 main.pdf",
+      "passed": true,
+      "detail": "D:\\ECJTU_thesis_template\\examples\\simple-thesis\\build\\main.pdf"
+    },
+    {
+      "name": "构建产物 main.log",
+      "passed": true,
+      "detail": "D:\\ECJTU_thesis_template\\examples\\simple-thesis\\build\\main.log"
+    },
+    {
+      "name": "构建产物 main.toc",
+      "passed": true,
+      "detail": "D:\\ECJTU_thesis_template\\examples\\simple-thesis\\build\\main.toc"
+    },
+    {
+      "name": "构建产物 main.layout",
+      "passed": true,
+      "detail": "D:\\ECJTU_thesis_template\\examples\\simple-thesis\\build\\main.layout"
+    },
+    {
+      "name": "编译错误、警告、缺字与溢出盒",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "BibTeX 著录完成或模板示例适用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "PDF 校准记录对应当前产物",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "PDF 对应当前源文件",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "实际尺寸 paperwidth",
+      "passed": true,
+      "detail": "595.3200 bp / 要求 595.3200 bp"
+    },
+    {
+      "name": "实际尺寸 paperheight",
+      "passed": true,
+      "detail": "841.9200 bp / 要求 841.9200 bp"
+    },
+    {
+      "name": "实际尺寸 left",
+      "passed": true,
+      "detail": "70.9440 bp / 要求 70.9440 bp"
+    },
+    {
+      "name": "实际尺寸 evenleft",
+      "passed": true,
+      "detail": "70.9440 bp / 要求 70.9440 bp"
+    },
+    {
+      "name": "实际尺寸 right",
+      "passed": true,
+      "detail": "56.6760 bp / 要求 56.6760 bp"
+    },
+    {
+      "name": "实际尺寸 top",
+      "passed": true,
+      "detail": "70.9000 bp / 要求 70.9000 bp"
+    },
+    {
+      "name": "实际尺寸 bottom",
+      "passed": true,
+      "detail": "70.9000 bp / 要求 70.9000 bp"
+    },
+    {
+      "name": "实际尺寸 header",
+      "passed": true,
+      "detail": "42.5500 bp / 要求 42.5500 bp"
+    },
+    {
+      "name": "实际尺寸 footer",
+      "passed": true,
+      "detail": "49.6402 bp / 要求 49.6402 bp"
+    },
+    {
+      "name": "实际尺寸 bodyfont",
+      "passed": true,
+      "detail": "12.0000 bp / 要求 12.0000 bp"
+    },
+    {
+      "name": "实际尺寸 baseline",
+      "passed": true,
+      "detail": "19.5000 bp / 要求 19.5000 bp"
+    },
+    {
+      "name": "三级 PDF 书签",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文第一章存在",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "封面、声明、两种摘要、目录顺序",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 1 页参考 A4 尺寸",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 1 页有效内容",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 1 页字体嵌入 VELHWA+SimSun",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 1 页字体嵌入 LTAIWT+TimesNewRomanPSMT",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 2 页参考 A4 尺寸",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 2 页有效内容",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 3 页参考 A4 尺寸",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 3 页有效内容",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 3 页字体嵌入 OFUDPT+SimHei",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 3 页字体嵌入 HGBIQF+KaiTi_GB2312",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 3 页字体嵌入 VELHWA+SimSun",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 3 页字体嵌入 RYSTMN+TimesNewRomanPS-BoldMT",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 3 页字体嵌入 AVDDUT+SimSun",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 4 页参考 A4 尺寸",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 4 页有效内容",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 5 页参考 A4 尺寸",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 5 页有效内容",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 5 页字体嵌入 CROTPC+SimHei",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 5 页字体嵌入 VELHWA+SimSun",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 5 页字体嵌入 LTAIWT+TimesNewRomanPSMT",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 6 页参考 A4 尺寸",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 6 页有效内容",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 6 页字体嵌入 RYSTMN+TimesNewRomanPS-BoldMT",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 6 页字体嵌入 LTAIWT+TimesNewRomanPSMT",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 6 页字体嵌入 CROTPC+SimHei",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 7 页参考 A4 尺寸",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 7 页有效内容",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 7 页字体嵌入 OFUDPT+SimHei",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 7 页字体嵌入 HZSTXM+SimHei",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 7 页字体嵌入 LTAIWT+TimesNewRomanPSMT",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 7 页字体嵌入 VELHWA+SimSun",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 7 页字体嵌入 RYSTMN+TimesNewRomanPS-BoldMT",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 7 页字体嵌入 CROTPC+SimHei",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 8 页参考 A4 尺寸",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 8 页有效内容",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 8 页字体嵌入 VELHWA+SimSun",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 8 页字体嵌入 LTAIWT+TimesNewRomanPSMT",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 8 页字体嵌入 OFUDPT+SimHei",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 8 页字体嵌入 CROTPC+SimHei",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 8 页字体嵌入 RYSTMN+TimesNewRomanPS-BoldMT",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 8 页字体嵌入 MMNIJD+SimHei",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 9 页参考 A4 尺寸",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 9 页有效内容",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 9 页字体嵌入 VELHWA+SimSun",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 9 页字体嵌入 LTAIWT+TimesNewRomanPSMT",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 9 页字体嵌入 OFUDPT+SimHei",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 9 页字体嵌入 RYSTMN+TimesNewRomanPS-BoldMT",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 9 页字体嵌入 MMNIJD+SimHei",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 9 页字体嵌入 CROTPC+SimHei",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 10 页参考 A4 尺寸",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 10 页有效内容",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 10 页字体嵌入 VELHWA+SimSun",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 10 页字体嵌入 LTAIWT+TimesNewRomanPSMT",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 10 页字体嵌入 OFUDPT+SimHei",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 10 页字体嵌入 CROTPC+SimHei",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 10 页字体嵌入 RYSTMN+TimesNewRomanPS-BoldMT",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 10 页字体嵌入 MMNIJD+SimHei",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 11 页参考 A4 尺寸",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 11 页有效内容",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 11 页字体嵌入 VELHWA+SimSun",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 11 页字体嵌入 LTAIWT+TimesNewRomanPSMT",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 11 页字体嵌入 RYSTMN+TimesNewRomanPS-BoldMT",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 11 页字体嵌入 MMNIJD+SimHei",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 11 页字体嵌入 CROTPC+SimHei",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 11 页字体嵌入 NBWHTO+CMR12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 11 页字体嵌入 ZXEMLI+CMMI12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 11 页字体嵌入 CRWKTV+CMR8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 11 页字体嵌入 ZNPMDF+CMSY10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 12 页参考 A4 尺寸",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 12 页有效内容",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 12 页字体嵌入 VELHWA+SimSun",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 12 页字体嵌入 LTAIWT+TimesNewRomanPSMT",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 12 页字体嵌入 OFUDPT+SimHei",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 12 页字体嵌入 MMNIJD+SimHei",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 12 页字体嵌入 CROTPC+SimHei",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 13 页参考 A4 尺寸",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 13 页有效内容",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 13 页字体嵌入 VELHWA+SimSun",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 13 页字体嵌入 LTAIWT+TimesNewRomanPSMT",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 13 页字体嵌入 OFUDPT+SimHei",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 13 页字体嵌入 MMNIJD+SimHei",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 13 页字体嵌入 CROTPC+SimHei",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 14 页参考 A4 尺寸",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 14 页有效内容",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 14 页字体嵌入 VELHWA+SimSun",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 14 页字体嵌入 LTAIWT+TimesNewRomanPSMT",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 14 页字体嵌入 CROTPC+SimHei",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 14 页字体嵌入 ZXEMLI+CMMI12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 14 页字体嵌入 NBWHTO+CMR12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 14 页字体嵌入 NOYNQE+CMMI8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 14 页字体嵌入 ITHSPX+CMEX10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 14 页字体嵌入 CRWKTV+CMR8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 14 页字体嵌入 ZNPMDF+CMSY10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 14 页字体嵌入 MMNIJD+SimHei",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 15 页参考 A4 尺寸",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 15 页有效内容",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 15 页字体嵌入 VELHWA+SimSun",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 15 页字体嵌入 LTAIWT+TimesNewRomanPSMT",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 15 页字体嵌入 OFUDPT+SimHei",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 15 页字体嵌入 MMNIJD+SimHei",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 16 页参考 A4 尺寸",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 16 页有效内容",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 16 页字体嵌入 VELHWA+SimSun",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 16 页字体嵌入 LTAIWT+TimesNewRomanPSMT",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 16 页字体嵌入 OFUDPT+SimHei",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 17 页参考 A4 尺寸",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 17 页有效内容",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 17 页字体嵌入 VELHWA+SimSun",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 17 页字体嵌入 LTAIWT+TimesNewRomanPSMT",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 17 页字体嵌入 OFUDPT+SimHei",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 18 页参考 A4 尺寸",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 18 页有效内容",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 18 页字体嵌入 VELHWA+SimSun",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 18 页字体嵌入 LTAIWT+TimesNewRomanPSMT",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 18 页字体嵌入 CROTPC+SimHei",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 19 页参考 A4 尺寸",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 19 页有效内容",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 19 页字体嵌入 VELHWA+SimSun",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 19 页字体嵌入 LTAIWT+TimesNewRomanPSMT",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 19 页字体嵌入 CROTPC+SimHei",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第 19 页字体嵌入 RYSTMN+TimesNewRomanPS-BoldMT",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "摘要、目录、正文文字位于版心",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "文字颜色符合文档模式",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "宋体、黑体、楷体及 Times New Roman 已使用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 1 页眉内容及奇偶规则",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 1 连续阿拉伯页码",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 1 页眉字号与居中",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 1 页眉字体",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 1 页脚字号与居中",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 1 页脚字体",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 2 页眉内容及奇偶规则",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 2 连续阿拉伯页码",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 2 页眉字号与居中",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 2 页眉字体",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 2 页脚字号与居中",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 2 页脚字体",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 3 页眉内容及奇偶规则",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 3 连续阿拉伯页码",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 3 页眉字号与居中",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 3 页眉字体",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 3 页脚字号与居中",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 3 页脚字体",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 4 页眉内容及奇偶规则",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 4 连续阿拉伯页码",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 4 页眉字号与居中",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 4 页眉字体",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 4 页脚字号与居中",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 4 页脚字体",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 5 页眉内容及奇偶规则",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 5 连续阿拉伯页码",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 5 页眉字号与居中",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 5 页眉字体",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 5 页脚字号与居中",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 5 页脚字体",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 6 页眉内容及奇偶规则",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 6 连续阿拉伯页码",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 6 页眉字号与居中",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 6 页眉字体",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 6 页脚字号与居中",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 6 页脚字体",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 7 页眉内容及奇偶规则",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 7 连续阿拉伯页码",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 7 页眉字号与居中",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 7 页眉字体",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 7 页脚字号与居中",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 7 页脚字体",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 8 页眉内容及奇偶规则",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 8 连续阿拉伯页码",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 8 页眉字号与居中",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 8 页眉字体",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 8 页脚字号与居中",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 8 页脚字体",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 9 页眉内容及奇偶规则",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 9 连续阿拉伯页码",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 9 页眉字号与居中",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 9 页眉字体",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 9 页脚字号与居中",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 9 页脚字体",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 10 页眉内容及奇偶规则",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 10 连续阿拉伯页码",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 10 页眉字号与居中",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 10 页眉字体",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 10 页脚字号与居中",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 10 页脚字体",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 11 页眉内容及奇偶规则",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 11 连续阿拉伯页码",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 11 页眉字号与居中",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 11 页眉字体",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 11 页脚字号与居中",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 11 页脚字体",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 12 页眉内容及奇偶规则",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 12 连续阿拉伯页码",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 12 页眉字号与居中",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 12 页眉字体",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 12 页脚字号与居中",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文 12 页脚字体",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "前置部分无页码页眉",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录页码 第1章  绪论",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录跳转 第1章  绪论",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文标题 第1章  绪论",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题字号 第1章  绪论",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题中文黑体 第1章  绪论",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录字号 第1章  绪论",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录逐级缩进 第1章  绪论",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录页码 1.1 研究背景与意义",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录跳转 1.1 研究背景与意义",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文标题 1.1 研究背景与意义",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题字号 1.1 研究背景与意义",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题中文黑体 1.1 研究背景与意义",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录字号 1.1 研究背景与意义",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录逐级缩进 1.1 研究背景与意义",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录页码 1.2 研究内容与方法",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录跳转 1.2 研究内容与方法",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文标题 1.2 研究内容与方法",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题字号 1.2 研究内容与方法",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题中文黑体 1.2 研究内容与方法",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录字号 1.2 研究内容与方法",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录逐级缩进 1.2 研究内容与方法",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录页码 1.2.1 研究内容",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录跳转 1.2.1 研究内容",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文标题 1.2.1 研究内容",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题字号 1.2.1 研究内容",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题中文黑体 1.2.1 研究内容",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录字号 1.2.1 研究内容",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录逐级缩进 1.2.1 研究内容",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录页码 1.2.2 研究方法",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录跳转 1.2.2 研究方法",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文标题 1.2.2 研究方法",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题字号 1.2.2 研究方法",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题中文黑体 1.2.2 研究方法",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录字号 1.2.2 研究方法",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录逐级缩进 1.2.2 研究方法",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录页码 1.3 论文组织结构",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录跳转 1.3 论文组织结构",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文标题 1.3 论文组织结构",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题字号 1.3 论文组织结构",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题中文黑体 1.3 论文组织结构",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录字号 1.3 论文组织结构",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录逐级缩进 1.3 论文组织结构",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录页码 第2章  需求分析",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录跳转 第2章  需求分析",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文标题 第2章  需求分析",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题字号 第2章  需求分析",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题中文黑体 第2章  需求分析",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录字号 第2章  需求分析",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录逐级缩进 第2章  需求分析",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录页码 2.1 使用场景与功能需求",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录跳转 2.1 使用场景与功能需求",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文标题 2.1 使用场景与功能需求",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题字号 2.1 使用场景与功能需求",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题中文黑体 2.1 使用场景与功能需求",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录字号 2.1 使用场景与功能需求",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录逐级缩进 2.1 使用场景与功能需求",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录页码 2.2 业务规则",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录跳转 2.2 业务规则",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文标题 2.2 业务规则",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题字号 2.2 业务规则",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题中文黑体 2.2 业务规则",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录字号 2.2 业务规则",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录逐级缩进 2.2 业务规则",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录页码 2.2.1 时段与冲突规则",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录跳转 2.2.1 时段与冲突规则",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文标题 2.2.1 时段与冲突规则",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题字号 2.2.1 时段与冲突规则",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题中文黑体 2.2.1 时段与冲突规则",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录字号 2.2.1 时段与冲突规则",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录逐级缩进 2.2.1 时段与冲突规则",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录页码 2.2.2 取消与权限规则",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录跳转 2.2.2 取消与权限规则",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文标题 2.2.2 取消与权限规则",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题字号 2.2.2 取消与权限规则",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题中文黑体 2.2.2 取消与权限规则",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录字号 2.2.2 取消与权限规则",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录逐级缩进 2.2.2 取消与权限规则",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录页码 2.3 质量需求",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录跳转 2.3 质量需求",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文标题 2.3 质量需求",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题字号 2.3 质量需求",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题中文黑体 2.3 质量需求",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录字号 2.3 质量需求",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录逐级缩进 2.3 质量需求",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录页码 第3章  系统设计",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录跳转 第3章  系统设计",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文标题 第3章  系统设计",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题字号 第3章  系统设计",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题中文黑体 第3章  系统设计",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录字号 第3章  系统设计",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录逐级缩进 第3章  系统设计",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录页码 3.1 总体结构",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录跳转 3.1 总体结构",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文标题 3.1 总体结构",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题字号 3.1 总体结构",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题中文黑体 3.1 总体结构",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录字号 3.1 总体结构",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录逐级缩进 3.1 总体结构",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录页码 3.2 数据模型",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录跳转 3.2 数据模型",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文标题 3.2 数据模型",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题字号 3.2 数据模型",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题中文黑体 3.2 数据模型",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录字号 3.2 数据模型",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录逐级缩进 3.2 数据模型",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录页码 3.3 冲突判定与事务设计",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录跳转 3.3 冲突判定与事务设计",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文标题 3.3 冲突判定与事务设计",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题字号 3.3 冲突判定与事务设计",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题中文黑体 3.3 冲突判定与事务设计",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录字号 3.3 冲突判定与事务设计",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录逐级缩进 3.3 冲突判定与事务设计",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录页码 3.3.1 时间区间判定",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录跳转 3.3.1 时间区间判定",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文标题 3.3.1 时间区间判定",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题字号 3.3.1 时间区间判定",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题中文黑体 3.3.1 时间区间判定",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录字号 3.3.1 时间区间判定",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录逐级缩进 3.3.1 时间区间判定",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录页码 3.3.2 事务边界",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录跳转 3.3.2 事务边界",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文标题 3.3.2 事务边界",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题字号 3.3.2 事务边界",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题中文黑体 3.3.2 事务边界",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录字号 3.3.2 事务边界",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录逐级缩进 3.3.2 事务边界",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录页码 第4章  关键功能实现",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录跳转 第4章  关键功能实现",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文标题 第4章  关键功能实现",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题字号 第4章  关键功能实现",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题中文黑体 第4章  关键功能实现",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录字号 第4章  关键功能实现",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录逐级缩进 第4章  关键功能实现",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录页码 4.1 预约创建",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录跳转 4.1 预约创建",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文标题 4.1 预约创建",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题字号 4.1 预约创建",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题中文黑体 4.1 预约创建",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录字号 4.1 预约创建",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录逐级缩进 4.1 预约创建",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录页码 4.1.1 输入校验",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录跳转 4.1.1 输入校验",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文标题 4.1.1 输入校验",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题字号 4.1.1 输入校验",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题中文黑体 4.1.1 输入校验",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录字号 4.1.1 输入校验",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录逐级缩进 4.1.1 输入校验",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录页码 4.1.2 冲突检查与记录写入",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录跳转 4.1.2 冲突检查与记录写入",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文标题 4.1.2 冲突检查与记录写入",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题字号 4.1.2 冲突检查与记录写入",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题中文黑体 4.1.2 冲突检查与记录写入",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录字号 4.1.2 冲突检查与记录写入",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录逐级缩进 4.1.2 冲突检查与记录写入",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录页码 4.2 预约取消",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录跳转 4.2 预约取消",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文标题 4.2 预约取消",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题字号 4.2 预约取消",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题中文黑体 4.2 预约取消",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录字号 4.2 预约取消",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录逐级缩进 4.2 预约取消",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录页码 4.3 查询与运行结果",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录跳转 4.3 查询与运行结果",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文标题 4.3 查询与运行结果",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题字号 4.3 查询与运行结果",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题中文黑体 4.3 查询与运行结果",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录字号 4.3 查询与运行结果",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录逐级缩进 4.3 查询与运行结果",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录页码 第5章  测试与分析",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录跳转 第5章  测试与分析",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文标题 第5章  测试与分析",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题字号 第5章  测试与分析",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题中文黑体 第5章  测试与分析",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录字号 第5章  测试与分析",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录逐级缩进 第5章  测试与分析",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录页码 5.1 测试环境与方法",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录跳转 5.1 测试环境与方法",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文标题 5.1 测试环境与方法",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题字号 5.1 测试环境与方法",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题中文黑体 5.1 测试环境与方法",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录字号 5.1 测试环境与方法",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录逐级缩进 5.1 测试环境与方法",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录页码 5.2 功能测试结果",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录跳转 5.2 功能测试结果",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文标题 5.2 功能测试结果",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题字号 5.2 功能测试结果",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题中文黑体 5.2 功能测试结果",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录字号 5.2 功能测试结果",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录逐级缩进 5.2 功能测试结果",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录页码 5.3 结果分析",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录跳转 5.3 结果分析",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文标题 5.3 结果分析",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题字号 5.3 结果分析",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题中文黑体 5.3 结果分析",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录字号 5.3 结果分析",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录逐级缩进 5.3 结果分析",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录页码 5.3.1 业务规则验证",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录跳转 5.3.1 业务规则验证",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文标题 5.3.1 业务规则验证",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题字号 5.3.1 业务规则验证",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题中文黑体 5.3.1 业务规则验证",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录字号 5.3.1 业务规则验证",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录逐级缩进 5.3.1 业务规则验证",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录页码 5.3.2 预约时长统计",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录跳转 5.3.2 预约时长统计",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文标题 5.3.2 预约时长统计",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题字号 5.3.2 预约时长统计",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题中文黑体 5.3.2 预约时长统计",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录字号 5.3.2 预约时长统计",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录逐级缩进 5.3.2 预约时长统计",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录页码 5.4 测试范围与后续验证",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录跳转 5.4 测试范围与后续验证",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文标题 5.4 测试范围与后续验证",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题字号 5.4 测试范围与后续验证",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题中文黑体 5.4 测试范围与后续验证",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录字号 5.4 测试范围与后续验证",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录逐级缩进 5.4 测试范围与后续验证",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录页码 第6章  总结与展望",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录跳转 第6章  总结与展望",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文标题 第6章  总结与展望",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题字号 第6章  总结与展望",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题中文黑体 第6章  总结与展望",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录字号 第6章  总结与展望",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录逐级缩进 第6章  总结与展望",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录页码 6.1 工作总结",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录跳转 6.1 工作总结",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文标题 6.1 工作总结",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题字号 6.1 工作总结",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题中文黑体 6.1 工作总结",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录字号 6.1 工作总结",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录逐级缩进 6.1 工作总结",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录页码 6.2 后续工作",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录跳转 6.2 后续工作",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文标题 6.2 后续工作",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题字号 6.2 后续工作",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题中文黑体 6.2 后续工作",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录字号 6.2 后续工作",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录逐级缩进 6.2 后续工作",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录页码 致谢",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录跳转 致谢",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文标题 致谢",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题字号 致谢",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题中文黑体 致谢",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录字号 致谢",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录逐级缩进 致谢",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录页码 参考文献",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录跳转 参考文献",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文标题 参考文献",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题字号 参考文献",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题中文黑体 参考文献",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录字号 参考文献",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录逐级缩进 参考文献",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录页码 附录A  软件使用说明书",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录跳转 附录A  软件使用说明书",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文标题 附录A  软件使用说明书",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题字号 附录A  软件使用说明书",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题中文黑体 附录A  软件使用说明书",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录字号 附录A  软件使用说明书",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录逐级缩进 附录A  软件使用说明书",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录页码 附录B  主要源代码",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录跳转 附录B  主要源代码",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正文标题 附录B  主要源代码",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题字号 附录B  主要源代码",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "标题中文黑体 附录B  主要源代码",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录字号 附录B  主要源代码",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "目录逐级缩进 附录B  主要源代码",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "中文摘要三号标题",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "中文关键词独立成行、顶格及小四字号",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "中文关键词分号及数量",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "英文摘要三号标题",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "英文关键词独立成行、顶格及小四字号",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "英文关键词分号及数量",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "中文正文小四宋体",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "PDF 正文行距 19.5 bp",
+      "passed": true,
+      "detail": "正常 LaTeX 正文基线间距 19.5 bp，容差 0.05 bp"
+    },
+    {
+      "name": "目录标题三号黑体",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "参考文献五号字体",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "scope": "模板排版的本地自动核验；逐页视觉检查另行进行。论文内容质量及校方外部检测不在本脚本范围。"
+}

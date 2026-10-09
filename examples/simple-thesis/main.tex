@@ -1,0 +1,41 @@
+% !TeX program = xelatex
+\documentclass[final]{ecjtu-thesis}
+\usepackage{listings}
+\lstset{
+  basicstyle=\rmfamily\addfontfeatures{Ligatures=TeXOff}\fontsize{10.56bp}{15.6bp}\selectfont,
+  keywordstyle=\bfseries,
+  commentstyle=\itshape,
+  columns=fullflexible,
+  keepspaces=true,
+  showstringspaces=false,
+  breaklines=true,
+  numbers=none,
+  tabsize=4,
+  literate={-}{{\symbol{45}}}1 {"}{{\symbol{34}}}1 {'}{{\symbol{39}}}1,
+  aboveskip=6bp,
+  belowskip=6bp
+}
+\input{metadata}
+\input{assets/test-summary}
+\begin{document}
+\pagenumbering{gobble}
+\pagestyle{empty}
+\makecover
+\null\clearpage
+\makedeclaration
+\null\clearpage
+\input{chapters/abstracts}
+\thesistableofcontents
+\thesismainmatter
+\include{chapters/chapter01}
+\include{chapters/chapter02}
+\include{chapters/chapter03}
+\include{chapters/chapter04}
+\include{chapters/chapter05}
+\include{chapters/chapter06}
+\include{chapters/acknowledgements}
+\bibliography{references}
+\thesisappendices
+\include{chapters/appendix-a}
+\include{chapters/appendix-b}
+\end{document}

@@ -1,0 +1,56 @@
+\chapter{系统设计}
+\section{总体结构}
+系统将输入组织、业务判断与数据存储分开。分层可以使业务规则集中在稳定的服务接口中，减少入口变化对核心逻辑的影响\cite{martin2017}。本原型的结构如图\ref{fig:architecture}所示。
+
+\begin{figure}[H]
+  \centering
+  \begin{tikzpicture}[
+    layer/.style={draw,rectangle,text width=112mm,minimum height=13mm,
+      align=center,font=\songti\fontsize{10.56bp}{15.6bp}\selectfont},
+    link/.style={-{Stealth[length=2mm]},thick}
+  ]
+    \node[layer] (entry) {入口层：命令行与测试程序\\组织用户、日期、座位和预约时段};
+    \node[layer,below=9mm of entry] (service) {业务层：预约服务\\输入校验、冲突判定、取消归属与结果码};
+    \node[layer,below=9mm of service] (data) {数据层：SQLite\\用户表、座位表、预约表与事务};
+    \draw[link] (entry) -- (service);
+    \draw[link] (service) -- (data);
+  \end{tikzpicture}
+  \caption{预约原型分层结构}
+  \label{fig:architecture}
+\end{figure}
+
+入口层只负责整理调用参数与展示结果。业务层通过创建预约、取消预约和统计查询三个接口完成主要操作。数据层使用 SQLite 保存关系数据，并在写入时启用外键校验。原型运行于本机内存数据库，每次测试均从相同初始状态开始；将数据库连接改为文件路径后，可进一步验证持久化行为。
+
+\section{数据模型}
+用户与预约构成一对多关系，座位与预约也构成一对多关系。关系数据库通过主键标识记录，通过外键表示关联\cite{silberschatz2019}。预约表中的主要字段见表\ref{tab:booking-fields}。
+
+\begin{table}[H]
+  \centering
+  \caption{预约表主要字段}
+  \label{tab:booking-fields}
+  \tablefont
+  \begin{tabularx}{\textwidth}{@{}p{25mm}p{27mm}Y@{}}
+    \toprule
+    字段 & 类型 & 含义与约束\\
+    \midrule
+    id & INTEGER & 自增主键，标识一次预约\\
+    user\_id & INTEGER & 外键，关联预约用户\\
+    seat\_id & INTEGER & 外键，关联所选座位\\
+    day & TEXT & 日期，以年、月、日的标准形式保存\\
+    start、end & INTEGER & 开始与结束分钟数，结束大于开始\\
+    status & TEXT & 有效或已取消，限定为两种状态\\
+    \bottomrule
+  \end{tabularx}
+\end{table}
+
+\section{冲突判定与事务设计}
+\subsection{时间区间判定}
+将预约表示为左闭右开区间 $[s,e)$。两个预约发生重叠，当且仅当满足式\eqref{eq:overlap}。
+\begin{equation}
+  s_1 < e_2 \quad \land \quad s_2 < e_1
+  \label{eq:overlap}
+\end{equation}
+其中，$s_1$ 与 $e_1$ 为已有预约的起止时刻，$s_2$ 与 $e_2$ 为新预约的起止时刻。严格小于关系使相邻预约可以共用边界时刻。数据库查询还需要同时限定日期与有效状态，防止不同日期或已取消记录影响结果。
+
+\subsection{事务边界}
+创建预约前开启即时写事务，在事务内依次查询用户、座位及重叠记录；全部条件满足后插入预约并提交，任一业务条件失败则回滚。该处理以一个事务覆盖检查与写入。本文的功能测试为串行执行，后续仍需通过多连接竞争测试评估并发场景。
