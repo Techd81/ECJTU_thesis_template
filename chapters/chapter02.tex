@@ -1,0 +1,105 @@
+% 本章按原 Word 结构转换。\templatehint 为写作提示，可用文档类 final 选项隐藏。
+
+\ctexset{chapter/beforeskip=6bp}
+\chapter{相关技术}\label{chap:2}
+\ctexset{chapter/beforeskip=0bp}
+\smalltemplatehints
+\ifecjtuguide\vspace{25.44bp}\fi
+
+\templateheading{一、章节定位与核心目标}
+
+\templatehint{作用：\hspace{-0.96bp}解释项目涉及的关键技术、\hspace{-0.84bp}工具与理论，\hspace{-0.96bp}说明\hspace{-0.84bp}“为什么用这些技术”\hspace{-0.96bp}以及\hspace{-0.84bp}“它们如何支撑项目”。}
+
+\templatehint{目标：展现你对技术选型的理性思考，为后续设计与实现铺平道路。}
+
+\ifecjtuguide\vspace{19.5bp}\fi
+\templateheading{二、章节结构建议（可分2-4个小节）}
+
+\ctexset{section/aftername=\hspace{1em}}
+\section{总体技术架构概述}
+
+\templatehint{用一段文字或框图简要说明项目整体技术栈（如前端、后端、数据库等）。}
+
+\templatehint{{\xeCJKsetup{CJKglue=\hskip-0.06bp plus0.08\baselineskip}\color[HTML]{4F81BD}示例：“本系统采用B/S架构，前端使用Vue.js，后端采用Spring\hspace{5.28bp}Boot框架，数据库选用MySQL，并\linebreak
+通过Docker容器化部署。”}}
+
+\section{关键技术分节详解}
+
+\templatehint{每项技术建议按以下逻辑展开：}
+
+\templatehint{\makebox[21bp][l]{{\fontspec[Path=assets/]{Wingdings-Regular.ttf}⚫}}技术简介：是什么？为何流行？\hspace{0bp}（1-2段）}
+
+\templatehint{\makebox[21bp][l]{{\fontspec[Path=assets/]{Wingdings-Regular.ttf}⚫}}选型理由：结合项目需求说明（如“Vue.js数据绑定特性适合动态管理界面”）。}
+
+\templatehint{\makebox[21bp][l]{{\fontspec[Path=assets/]{Wingdings-Regular.ttf}⚫}}在本项目中的应用场景：具体用在哪些模块？\hspace{0bp}（如“Spring Security用于实现用户权限控制”）。}
+
+\templatehint{\makebox[21bp][l]{{\fontspec[Path=assets/]{Wingdings-Regular.ttf}⚫}}技术关联性：如何与其他技术协同（如“Axios实现前后端数据交互”）。}
+
+\section{开发工具与环境}
+
+\templatehint{\hspace*{21bp}列出关键工具（如IDEA、Git、Postman）。}
+
+\templatehint{\hspace*{21bp}简要说明用途（如“Jenkins用于持续集成”）。}
+
+\ctexset{section/aftername=\hspace{0.5em}}
+\section{（可选）技术难点与解决方案}
+
+\templatehint{\hspace*{21bp}若涉及特殊技术挑战（如并发处理、算法优化），可提前在此分析。}
+
+\ifecjtuguide\vspace{19.5bp}\fi
+\templateheading{三、内容撰写要点}
+
+\templateheading{1.\hspace{5.28bp}避免简单堆砌}
+
+\templatehint{{\fontspec{Segoe UI Emoji}❌}\hspace{5.28bp}错误：“Vue.js是一个框架，由\hspace{0bp}***\hspace{0bp}开发……”}
+
+\templatehint{{\fontspec{Segoe UI Emoji}✅}\hspace{5.28bp}正确：“选用\hspace{4.8bp}Vue.js\hspace{4.8bp}构建响应式前端，其组件化开发模式便于实现本系统的动态表单模块（见\hspace{4.92bp}4.2\linebreak
+节），同时……”}
+
+\templateheading{2.\hspace{5.28bp}紧扣项目需求}
+
+\templatehint{\hspace*{21bp}每项技术都需与项目功能关联（如“选用Redis缓存热点数据，以提升5.3节中的查询性能”）。}
+
+\templatehint{3.\hspace{5.28bp}适度深入技术细节}
+
+\clubpenalty=0\widowpenalty=0\interlinepenalty=0\clubpenalties 1 0\widowpenalties 1 0
+\templatehint{\hspace*{21bp}对核心技术可适当展开（如Spring\hspace{4.08bp}Boot的依赖注入机制、MySQL的索引优化原理），但避免过度赘述教科书内容。}
+\clubpenalty=10000\widowpenalty=10000\clubpenalties 0\widowpenalties 0
+
+\templateheading{4.\hspace{5.28bp}善用图表辅助}
+
+\templatehint{\hspace*{21bp}技术架构图（如分层架构图）、技术对比表（如数据库选型对比）能让表达更清晰。}
+
+\ifecjtuguide\vspace{19.5bp}\fi
+\templateheading{四、技术选型描述范例}
+
+\templateheading{\hspace*{10.5bp}2.1 Spring Boot后端框架}
+
+\templatehint{\hspace*{21bp}Spring Boot是基于Spring的轻量级开发框架，通过自动配置简化了\hspace{2.64bp}Java\hspace{2.52bp}EE\hspace{2.52bp}应用部署流程。本项目选用Spring Boot 2.7（理由：1.\hspace{5.28bp}快速构建RESTful API；2.\hspace{5.28bp}内嵌Tomcat服务器便于打包部署）。其在系统中主要用于用户管理模块（详见4.1节）和订单处理接口（详见5.2节），与MyBatis框架整合实现数据持久化操作。}
+
+\ifecjtuguide\vspace{19.5bp}\fi
+\templateheading{五、常见问题与避坑指南}
+
+\templatehint{\hspace*{10.56bp}内容空洞 {\fontspec{SimSun}→}\hspace{5.28bp}始终关联“本项目的xx模块需要xx技术的xx特性”。}
+
+\templatehint{\hspace*{10.56bp}比例失衡 {\fontspec{SimSun}→}\hspace{5.28bp}重点技术占60\%-70\%，辅助工具简要带过。}
+
+\templatehint{\hspace*{10.56bp}忽视版本 {\fontspec{SimSun}→}\hspace{5.28bp}精确到具体版本号（如Python 3.9，而非“Python3”）。}
+
+\templatehint{\hspace*{10.56bp}技术过时/超前 {\fontspec{SimSun}→}\hspace{5.28bp}选择主流稳定技术，谨慎使用未成熟方案。}
+
+\templatehint{\hspace*{10.56bp}抄袭说明书 {\fontspec{SimSun}→}\hspace{5.28bp}用自己的语言重新组织，标注参考文献。}
+
+\ifecjtuguide\vspace{19.5bp}\fi
+\templateheading{六、实用检查清单}
+
+\templatehint{\hspace*{10.5bp}1）每项技术都说明了选型理由}
+
+\templatehint{\hspace*{10.5bp}2）技术描述与后续章节存在明确呼应}
+
+\templatehint{\hspace*{10.5bp}3）图表编号正确、引用准确}
+
+\templatehint{\hspace*{10.5bp}4）避免了与“系统设计”章节的内容重复}
+
+\templatehint{\hspace*{10.5bp}5）技术术语使用规范，首次出现时附带英文缩写}
+\normaltemplatehints

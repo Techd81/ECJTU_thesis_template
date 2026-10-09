@@ -1,0 +1,217 @@
+% 本章按原 Word 结构转换。\templatehint 为写作提示，可用文档类 final 选项隐藏。
+
+\chapter{详细设计}\label{chap:5}
+\ctexset{subsection={format=\heiti\ecjtutitlelatin\mdseries\fontsize{12bp}{27.04bp}\selectfont\ecjtuwordstrut{17.88}{9.16},beforeskip=1bp,afterskip=1bp}}
+\simsuntemplatehints
+\indenttemplatehints
+
+\templateblank
+
+\ifecjtuguide\vspace{7.8bp}\fi
+\section{系统前端详细设计}
+
+\templateblank
+
+\ifecjtuguide\vspace{7.8bp}\fi
+\subsection{前端总体架构}
+
+
+\templatehint{目的：让读者了解前端项目的整体技术选型和结构。}
+
+\templatehint{·\hspace{6bp}开发框架：Vue.js / React / Angular 及其版本。}
+
+\templatehint{·\hspace{6bp}UI 组件库：Element UI / Ant Design / Vant 等。}
+
+\templatehint{·\hspace{6bp}状态管理：Vuex / Redux / Pinia / MobX。}
+
+\templatehint{·\hspace{6bp}构建工具：Webpack / Vite。}
+
+\templatehint{·\hspace{6bp}其他工具库：如日期处理（Moment.js / Day.js）、图表库（ECharts / D3）等。}
+
+\templatehint{\xeCJKsetup{CJKglue=\hskip0bp}·\hspace{4.68bp}前端架构图：\hspace{-1.32bp}绘制前端模块的组织结构，\hspace{-1.2bp}例如：\hspace{4.68bp}项目目录结构\hspace{-1.2bp}（src\hspace{6bp}下按功能划分：\linebreak components、views、store、router、utils、assets 等）。}
+
+\templatehint{·\hspace{6bp}数据流向图（展示用户交互\hspace{0bp}→\hspace{0bp}视图更新\hspace{0bp}→\hspace{0bp}状态变化\hspace{0bp}→\hspace{0bp}API 请求的完整闭环）。}
+
+
+\subsection{页面路由与菜单设计}
+
+\templatehint{目的：规划系统的页面结构和导航方式。}
+
+\templatehint{·\hspace{6bp}路由表设计：用表格列出所有页面路由，包括：}
+
+\templatehint{\hspace*{12bp}·\hspace{6bp}路径（path）}
+
+\templatehint{\hspace*{12bp}·\hspace{6bp}对应组件（component）}
+
+\templatehint{\hspace*{12bp}·\hspace{6bp}页面名称（name）}
+
+\templatehint{\hspace*{12bp}·\hspace{6bp}权限要求（如需要登录、角色限制）}
+
+\templatehint{\hspace*{12bp}·\hspace{6bp}嵌套关系（父路由与子路由）}
+
+\templatehint{·\hspace{6bp}菜单导航结构：可以用思维导图或树形图展示系统的菜单层级，说明哪些菜单是动态生成的（根据权限过滤）。}
+
+
+\subsection{组件设计与用户界面设计}
+\addtocontents{toc}{\protect\newpage\protect\vspace*{-39bp}}
+
+\templatehint{重点：将页面拆分为可复用的组件，体现“组件化”思想。}
+
+\templatehint{·\hspace{6bp}组件划分：}
+
+\templatehint{\hspace*{12bp}·\hspace{5.04bp}绘制组件树，\hspace{-0.96bp}从根组件\hspace{-0.96bp}（App）\hspace{-0.84bp}开始，\hspace{-0.84bp}逐层展示页面级组件、\hspace{-0.84bp}业务组件、\hspace{-0.84bp}通用组件。}
+
+\templatehint{\hspace*{12bp}·\hspace{6bp}区分公共组件（如 Header、Footer、Sidebar、Loading）和业务组件（如商品卡片、订单列表项）。}
+
+\templatehint{·\hspace{6bp}核心组件详细设计（选择 2-3 个关键业务组件深入）：}
+
+\templatehint{\hspace*{12bp}·\hspace{6bp}组件功能描述。}
+
+\templatehint{\hspace*{12bp}·\hspace{6bp}Props：接收哪些属性，类型、是否必填、默认值。}
+
+\templatehint{\hspace*{12bp}·\hspace{6bp}Events：向外触发哪些事件（如点击、输入），携带的数据格式。}
+
+\ifecjtuguide\clearpage\fi
+\templatehint{\hspace*{12bp}·\hspace{6bp}内部状态：组件自身维护的数据。}
+
+\templatehint{\hspace*{12bp}·\hspace{6bp}使用示例：在父组件中如何调用。}
+
+\templatehint{·\hspace{4.68bp}组件通信方式：\hspace{-1.32bp}简述父子组件通信\hspace{-1.32bp}（props/emit）、\hspace{-1.32bp}跨级组件通信\hspace{-1.32bp}（provide/inject、\\Context）、全局状态管理之间的分工。}
+
+
+\subsection{关键交互流程设计}
+
+\templatehint{目的：对复杂用户操作进行详细描述，确保前后端理解一致。}
+
+\templatehint{·\hspace{6bp}流程描述：选择 2-3 个核心业务流程（如用户登录、商品搜索、下单支付），用流\linebreak 程图展示用户操作步骤、界面反馈、数据请求时机。}
+
+\templatehint{·\hspace{6bp}界面状态转换：对涉及多步骤的表单或多状态视图，使用状态图说明不同状态下的界面表现。}
+
+\templatehint{·\hspace{6bp}异常处理：如网络错误、表单校验失败时，前端的提示方式和后续行为。}
+
+\section{系统后端详细设计}
+\ifecjtuguide\vspace{1bp}\fi
+
+\templateblank
+
+
+\subsection{后端总体架构}
+
+\templatehint{目的：让读者了解后端系统的整体技术选型、分层结构和数据流向。}
+
+\templatehint{·\hspace{6bp}技术栈说明：}
+
+\templatehint{\hspace*{12bp}·\hspace{6bp}开发语言：Java / Python / Go / Node.js 等。}
+
+\templatehint{\hspace*{12bp}·\hspace{6bp}开发框架：Spring Boot / Django / Gin / Express 等。}
+
+\templatehint{\hspace*{12bp}·\hspace{6bp}数据库：MySQL / PostgreSQL / MongoDB 等。}
+
+\templatehint{\hspace*{12bp}·\hspace{6bp}缓存：Redis / Memcached。}
+
+\templatehint{\hspace*{12bp}·\hspace{6bp}消息队列：RabbitMQ / Kafka（如果使用）。}
+
+\templatehint{\hspace*{12bp}·\hspace{6bp}其他中间件：Elasticsearch（搜索）、MinIO（对象存储）等。}
+
+\templatehint{·\hspace{6bp}分层架构图：绘制后端逻辑分层，如：}
+
+\templatehint{\hspace*{12bp}·\hspace{6bp}表示层（Controller）：处理 HTTP 请求、响应。}
+
+\templatehint{\hspace*{12bp}·\hspace{6bp}业务逻辑层（Service）：实现核心业务逻辑。}
+
+\templatehint{\hspace*{12bp}·\hspace{6bp}数据访问层（DAO / Repository）：与数据库交互。}
+
+\templatehint{\hspace*{12bp}·\hspace{6bp}基础设施层：工具类、第三方集成等。}
+
+\templatehint{·\hspace{6bp}数据流向图：展示一次请求从进入系统到返回响应的完整路径，涉及各层之间的调用关系。}
+
+
+\subsection{功能模块设计}
+
+\templatehint{重点：将系统按业务功能拆分为若干模块，并详细描述每个模块的内部设计。}
+
+\templatehint{·\hspace{6bp}模块划分：}
+
+\templatehint{\hspace*{12bp}·\hspace{6bp}列出所有后端模块（如用户模块、商品模块、订单模块、支付模块等）。}
+
+\templatehint{\hspace*{12bp}·\hspace{6bp}说明模块间的依赖关系（用模块依赖图表示）。}
+
+\ifecjtuguide\clearpage\fi
+\templateheading{·\hspace{6bp}核心模块详细设计（选择 2-3 个关键模块深入展开）：}
+
+\templatehint{\hspace*{12bp}·\hspace{6bp}模块描述：该模块负责的功能。}
+
+\templatehint{\hspace*{12bp}·\hspace{6bp}类图：展示该模块涉及的主要类（Controller、Service、DAO、实体类）及其关\linebreak 系（继承、关联、依赖）。}
+
+\templatehint{\hspace*{12bp}·\hspace{8.64bp}{\XeTeXcharclass"FF1A=1\XeTeXcharclass"FF08=1\XeTeXcharclass"201C=1\XeTeXcharclass"201D=1\relax 时序图：描述典型业务流程中对象间的交互顺序（例如“用户下单”涉及\linebreak} OrderController、OrderService、InventoryService、OrderDAO、PaymentService 等的\linebreak 调用）。}
+
+\templatehint{\hspace*{12bp}·\hspace{6bp}流程图：描述模块内部复杂算法或状态转换（如订单状态流转：待支付\hspace{0bp}→\hspace{0bp}已支付\linebreak \hspace{0bp}→\hspace{0bp}已发货\hspace{0bp}→\hspace{0bp}已完成）。}
+
+\templatehint{\hspace*{9.84bp}·\hspace{6bp}输入/输出说明：接口的请求参数和响应数据（简要说明，详细接口可单独在接口设计部分列出）。}
+
+\templatehint{·\hspace{6bp}其他模块概述：对于非核心模块，简要说明其功能和关键设计点。}
+
+\subsection{安全设计（可选）}
+
+\templatehint{目的：保障系统的数据安全和访问控制。}
+
+\templatehint{·\hspace{6bp}认证与授权：}
+
+\templatehint{\hspace*{12bp}·\hspace{6bp}认证方式：JWT / OAuth2 / Session-Cookie。}
+
+\templatehint{\hspace*{12bp}·\hspace{6bp}权限控制模型：RBAC（基于角色的访问控制），说明角色、权限、资源的定义。}
+
+\templatehint{\hspace*{12bp}·\hspace{6bp}实现方式：过滤器/拦截器校验 Token，从 Token 中解析用户信息，结合权限注\linebreak 解（如 Spring Security 的 @PreAuthorize）进行方法级权限控制。}
+
+\templatehint{·\hspace{6bp}数据安全：}
+
+\templatehint{\hspace*{12bp}·\hspace{6bp}密码加密：BCrypt / PBKDF2 等哈希算法。}
+
+\templatehint{\hspace*{12bp}·\hspace{6bp}传输加密：HTTPS。}
+
+\templatehint{\hspace*{12bp}·\hspace{6bp}敏感数据脱敏：如手机号、身份证号在日志和响应中部分隐藏。}
+
+\templatehint{·\hspace{6bp}防攻击措施：}
+
+\templatehint{\hspace*{12bp}·\hspace{6bp}SQL 注入：使用预编译语句、ORM 框架的内置防护。}
+
+\templatehint{\hspace*{12bp}·\hspace{6bp}XSS：对用户输入进行转义。}
+
+\templatehint{\hspace*{12bp}·\hspace{6bp}CSRF：使用 Token 或 SameSite Cookie 属性。}
+
+\templatehint{\hspace*{12bp}·\hspace{6bp}接口防刷：限流、验证码等。}
+
+
+\subsection{部署与运行环境（可选）}
+
+\templatehint{目的：简要说明后端系统的部署方案和运行环境要求。}
+
+\templatehint{·\hspace{6bp}硬件/软件环境：服务器配置、操作系统、JDK/Python 版本等。}
+
+\templatehint{·\hspace{6bp}部署架构图：如单机部署、集群部署、负载均衡等（若涉及）。}
+
+\templatehint{·\hspace{6bp}配置管理：配置文件拆分（开发、测试、生产环境），敏感配置（如数据库密码）的加密或使用环境变量。}
+
+\normaltemplatehintindent
+\ifecjtuguide
+  \clearpage\vspace*{-10.705bp}
+  \templatehint{{\fontspec{Segoe UI Emoji}💡}}
+  \vspace{5bp}
+\fi
+\templateheading{\hspace*{12bp}写作技巧与注意事项}
+
+\templatehint{\hspace*{12bp}1. 图文并茂：}
+
+\templatehint{\hspace*{12bp}2. 详细设计阶段重点写“打算如何构建”，可以粘贴少量代码。}
+
+\templatehint{\hspace*{12bp}3. 与需求分析呼应：确保前端设计覆盖了需求分析中的所有界面和交互要求。}
+
+\templatehint{\hspace*{30bp}·\hspace{6bp}例如，需求中提到的“用户登录”功能，在设计里要有对应的页面、组件、状态管理、接口调用描述。}
+
+\templateheading{\hspace*{12bp}4. 突出亮点与难点：}
+
+\templatehint{\hspace*{30bp}·\hspace{6bp}如果某个功能有技术挑战（如实时聊天、大屏可视化、复杂表单联动），可以单\linebreak 独展开，详细描述设计方案。如果某个模块有复杂业务逻辑或技术挑战（如秒杀系统、支\linebreak 付对接、实时推荐），可以单独展开，详细描述设计方案，体现你的技术深度和工作量。}
+
+\templatehint{\hspace*{30bp}·\hspace{6bp}在模块设计中，不必面面俱到，但要覆盖核心内容。对核心业务给出类图和时序图，非核心业务可简要描述。}
+\normaltemplatehintfont
+\ctexset{subsection={format=\heiti\ecjtusectionlatin\mdseries\fontsize{12bp}{19.5bp}\selectfont\ecjtuwordstrut{14.08}{5.42},beforeskip=\ecjtuheadingpreskip,afterskip=0bp}}

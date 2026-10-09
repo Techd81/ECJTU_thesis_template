@@ -1,0 +1,33 @@
+% !TeX program = xelatex
+% 使用 [final] 隐藏 \templatehint 中的写作说明；正式内容仍须自行填写。
+\documentclass{ecjtu-thesis}
+\input{metadata}
+\begin{document}
+\pagenumbering{gobble}
+\pagestyle{empty}
+\makecover
+\null\clearpage
+\makedeclaration
+\null\clearpage
+\input{chapters/abstracts}
+\thesistableofcontents
+\thesismainmatter
+\include{chapters/chapter01}
+\include{chapters/chapter02}
+\include{chapters/chapter03}
+\include{chapters/chapter04}
+\include{chapters/chapter05}
+\include{chapters/chapter06}
+\include{chapters/chapter07}
+% 沿用信息与软件工程学院提供的 Word 模板顺序。
+\include{chapters/acknowledgements}
+\ifecjtuguide
+  \input{chapters/reference-example}
+\else
+  \nocite{*}
+  \bibliography{references}
+\fi
+\thesisappendices
+\include{chapters/appendix-a}
+\include{chapters/appendix-b}
+\end{document}
